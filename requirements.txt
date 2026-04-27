@@ -1,6 +1,9 @@
 streamlit
 pandas
+numpy
 duckdb
 plotly
 umap-learn
+scikit-learn
 hdbscan
+xlrd

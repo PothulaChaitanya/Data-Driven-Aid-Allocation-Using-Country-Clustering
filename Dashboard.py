@@ -15,7 +15,11 @@ st.title('Clustering on Countries 🌍')
 # -----------------------------
 # Safe DB Connection
 # -----------------------------
-conn = duck.connect('country_cluster.db', read_only=True)
+import pathlib
+
+BASE_DIR = pathlib.Path(__file__).parent
+db_path = BASE_DIR / "country_cluster.db"
+conn = duck.connect(str(db_path))
 
 # -----------------------------
 # Problem Description

@@ -1,0 +1,6 @@
+streamlit
+pandas
+duckdb
+plotly
+umap-learn
+hdbscan
